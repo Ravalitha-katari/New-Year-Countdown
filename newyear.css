@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #c07eb2;
+    background-image: url("https://www.teahub.io/photos/full/55-557645_diwali-crackers-images-animated.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:cover;
+  }
+  
+  .countdown-container {
+    max-width: 50%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-blend-mode:hard-light;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    hover{color: lightpink;}
+  }
+  
+  h1 {
+    /* color: #ecec06; */
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+  }
+  
+  .countdown {
+    display:-webkit-flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .countdown div {
+    text-align: center;
+  }
+  
+  .countdown-label {
+    color: #eae5e5;
+  
+  }
+  .box{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border: 2px solid white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .countdown span {
+    display: block;
+    font-size: 50px;
+    color:aqua;
+    font-weight: bold;
+  }
+  .days{
+    border-radius: 100%;
+  }
